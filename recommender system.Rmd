@@ -1,0 +1,90 @@
+---
+title: "Recommender System"
+author: "Inayatus S, Tanesya Tresna, Wulan Andriyani, & Yaumil Sitta"
+date: "`r format(Sys.Date(), '%B %e, %Y')`"
+output: 
+  html_document:
+    theme: flatly
+    higlight: zenburn
+    toc: true
+    toc_float:
+      collapsed: false
+    number_sections: true
+    df_print: paged
+---
+
+<style>
+body { 
+text-align: justify}
+</style>
+
+# Pengantar {.tabset}
+
+## Latar Belakang
+
+Akhir-akhir ini berbagai layanan web seperti Youtube, Amazon, Netflix, dan masih banyak lagi cukup menyita dan mengambil perhatian masyarakat luas. Pernahkah terlintas di pikiran anda, mengapa Youtube bisa mengetahui video apa yang kita sukai? atau bagaimana NetfliX merekomendasikan film yang tepat untuk kita?. Tepat sekali sistem rekomendasi yang secara ajaib bekerja di belakang itu semua. Saat ini sistem rekomendasi tidak dapat terlepas dari kehidupan kita terutama secara online. Bahkan perusahaan besar seperti Google menyebutkan bahwa recommender system is million dollar investment.
+
+Secara sederhana sistem rekomendasi adalah suatu algoritma/perintah yang bertujuan untuk menyarankan item yang relevan kepada pelanggan, seperti rekomendasi film untuk ditonton atau rekomendasi produk untuk dibeli.
+
+Artikel ini akan membahas tentang gambaran sistem rekomendasi secara umum dan beberapa metode yang sering digunakan untuk membangun suatu sistem rekomendasi. Metode yang akan dibahas meliputi "collaborative" dan "content based" secara bertahap, mulai dari mempersiapkan data, membangun sistem rekomendasi, dan cara mengevaluasi sistem rekomendasi tersebut.
+
+## Tujuan
+
+Artikel ini dimaksudkan untuk:
+
+- Menggambarkan secara umum tentang beberapa algoritma sistem rekomendasi
+- Membahas perbedaan metode "collaborative" dan "content based"
+- Membahas beberapa metode "collaborative" 
+- Membahas metode "content based" dan bagaimana meode tersebut bekerja
+- Membahas bagaimana cara mengevalusi suatu sistem rekomendasi 
+
+Untuk memahami topik yang akan dibahas, setidaknya harus memahami beberapa topik berikut:
+
+- 
+- 
+
+## Libraries and Setup
+
+```{r setup, include=FALSE}
+# clear-up the environment
+rm(list = ls())
+
+# chunk options
+knitr::opts_chunk$set(
+  message = FALSE,
+  warning = FALSE,
+  fig.align = "center",
+  comment = "#>"
+)
+
+# scientific notation
+options(scipen = 9999)
+```
+
+```{r}
+# Import libraries
+
+```
+
+# Perbedaan Metode Collaborative dan Content Based
+
+# Collaborative Filtering
+
+## Model Based (Matrix Factorization)
+
+## Memory Based (Similarities)
+
+# Content Based
+
+# Evaluasi
+
+# Kesimpulan
+
+# Referensi
+
+1. [Short Course: Recommendation Tools, Spring 2016](https://michael.hahsler.net/other_courses/ICMA_Recommendation_Tools/) 
+
+
+
+
+
